@@ -1,4 +1,5 @@
-import readAndWriteData from "./modules/write-read.js";
+import { writeData } from "./modules/write.js";
+import { readData } from "./modules/read.js";
 
-// panggil functionnya aja wkwk
-readAndWriteData();
+writeData();
+readData();
