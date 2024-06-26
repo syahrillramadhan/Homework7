@@ -8,7 +8,7 @@ const readData = async () => {
         const read = await readFile('log.txt', 'utf8');
         console.log('Data:', data);
     } catch (error) {
-        throw new Error('Gagal membaca data mazeehh', error);
+        throw new Error('Failed to read file', error);
     }
 };
 
