@@ -6,9 +6,9 @@ const writeData = async () => {
         const data = await getData();
 
         await writeFile('log.txt', data);
-        console.log('Data berhasil disimpan');
+        console.log('Successfully to saving data');
     } catch (error) {
-        throw new Error('Gagal menulis data mazeehh', error);
+        throw new Error('Failed to write data', error);
     }
 };
 
