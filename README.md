@@ -1,2 +1,2 @@
-# HW-7-Rakamin
-Mantappu jiwa~
+# Homework 7 Rakamin
+Nodejs And Restfull API
